@@ -1,5 +1,5 @@
-myaadhar={4050:"tusar",4050:"akash"}
-myaadhar[4050] 
+myaadhar={4050:"tusar",4051:"akash"}
+print(myaadhar[4050])
 myaadhar[454546]="gaurav"     
 myaadhar.pop(4050)      
 

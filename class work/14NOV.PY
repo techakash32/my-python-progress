@@ -1,4 +1,4 @@
-#list compresion
+#list comprehension
 
 list=[i for i in range(1,11)]
 

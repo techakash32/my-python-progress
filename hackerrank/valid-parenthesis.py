@@ -1,6 +1,6 @@
-s="{()"
+s='([{()}])'
 var=[]
-a=0
+a=1
 for ch in s:
     if ch=="(" or ch=="[" or ch == "{":
         var.append(ch)
@@ -21,7 +21,6 @@ for ch in s:
     else:
         a=1
         break
-            
 if len(var)!=0 or a==1:
     print("invalid")
 else:
